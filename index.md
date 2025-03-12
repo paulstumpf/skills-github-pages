@@ -1,5 +1,5 @@
 # Welcome to My Financial Modeling Portfolio
-
+<link rel="stylesheet" href="styles.css">
 ## About Me
 Hi! I'm Paul Stumpf, a financial modeling enthusiast with experience in DCF, LBO, and M&A models. This website showcases some of my key projects and skills.
 
