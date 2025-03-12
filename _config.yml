@@ -1,0 +1,64 @@
+# Site Metadata
+title: "My Financial Modeling Portfolio"
+description: "Showcasing advanced financial models: DCF, M&A, LBO, and more"
+author: "Your Name"
+email: "your-email@example.com"
+url: "https://yourusername.github.io"
+
+# Navigation Links
+nav_links:
+  - name: "Home"
+    url: "/"
+  - name: "Projects"
+    url: "/projects/"
+  - name: "About"
+    url: "/about/"
+  - name: "Contact"
+    url: "/contact/"
+
+# Theme
+theme: minima
+minima:
+  sidebar: true
+  social_links:
+    linkedin: "https://linkedin.com/in/your-profile"
+    github: "https://github.com/your-username"
+
+# Pagination Settings
+paginate: 5
+paginate_path: "/page:num/"
+
+# Markdown and Syntax Highlighting
+markdown: kramdown
+highlighter: rouge
+
+# Exclude Files/Folders
+exclude:
+  - README.md
+  - _drafts/
+  - node_modules/
+  
+# SEO Settings
+plugins:
+  - jekyll-seo-tag
+# Social Media Integration
+twitter_username: "yourTwitterHandle"
+
+# Analytics
+google_analytics: "UA-XXXXXXXXX-X" # Replace with your Google Analytics ID
+# Favicon
+favicon: "/assets/images/favicon.ico"
+# Layout Customizations
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "project"
+
+
